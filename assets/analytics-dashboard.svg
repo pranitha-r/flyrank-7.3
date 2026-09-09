@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="db-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="chart-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" fill="url(#db-bg)" />
+
+  <!-- App Header / Browser Chrome -->
+  <rect width="1200" height="64" fill="#1f2937" />
+  <circle cx="28" cy="32" r="6" fill="#ef4444" />
+  <circle cx="48" cy="32" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="32" r="6" fill="#10b981" />
+
+  <!-- URL Bar -->
+  <rect x="110" y="16" width="600" height="32" rx="6" fill="#111827" />
+  <text x="126" y="37" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#10b981">🔒 https://dash.cloudflare.com/analytics/web/pranitha.dev</text>
+
+  <!-- Live Status Badge -->
+  <rect x="1000" y="18" width="160" height="28" rx="14" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+  <circle cx="1016" cy="32" r="4" fill="#34d399" />
+  <text x="1028" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#a7f3d0">LIVE & TRACKING</text>
+
+  <!-- Dashboard Content Container -->
+  <g transform="translate(60, 90)">
+    <!-- Title & Domain Info -->
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#ffffff">Web Analytics: pranitha.dev</text>
+    <text x="0" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#9ca3af">Privacy-first, zero-cookie telemetry • SSL/TLS 1.3 Active • Cloudflare Web Analytics Beacon</text>
+
+    <!-- Stat Cards Row -->
+    <g transform="translate(0, 80)">
+      <!-- Card 1: Unique Visitors -->
+      <rect x="0" y="0" width="250" height="110" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">UNIQUE VISITORS (24H)</text>
+      <text x="20" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#38bdf8">148</text>
+      <text x="110" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#34d399">↑ +38%</text>
+
+      <!-- Card 2: Page Views -->
+      <rect x="275" y="0" width="250" height="110" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="295" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">TOTAL PAGE VIEWS</text>
+      <text x="295" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#38bdf8">512</text>
+      <text x="385" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#34d399">3.46 / visit</text>
+
+      <!-- Card 3: Avg Visit Duration -->
+      <rect x="550" y="0" width="250" height="110" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="570" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">AVG VISIT DURATION</text>
+      <text x="570" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#38bdf8">1m 54s</text>
+      <text x="690" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">Engaged</text>
+
+      <!-- Card 4: Bounce Rate -->
+      <rect x="825" y="0" width="255" height="110" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="845" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">BOUNCE RATE</text>
+      <text x="845" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#34d399">22.4%</text>
+      <text x="960" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#34d399">Low Drop</text>
+    </g>
+
+    <!-- Main Chart Section -->
+    <g transform="translate(0, 215)">
+      <rect x="0" y="0" width="720" height="230" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="24" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Hourly Traffic Volume & Telemetry (UTC)</text>
+      
+      <!-- Chart Area -->
+      <path d="M 30 180 Q 120 160, 200 130 T 380 90 T 520 70 T 680 40 L 680 190 L 30 190 Z" fill="url(#chart-fill)" />
+      <path d="M 30 180 Q 120 160, 200 130 T 380 90 T 520 70 T 680 40" fill="none" stroke="#38bdf8" stroke-width="3" />
+      
+      <!-- Data dots -->
+      <circle cx="200" cy="130" r="4" fill="#38bdf8" />
+      <circle cx="380" cy="90" r="4" fill="#38bdf8" />
+      <circle cx="520" cy="70" r="4" fill="#38bdf8" />
+      <circle cx="680" cy="40" r="5" fill="#34d399" stroke="#ffffff" stroke-width="2" />
+
+      <!-- Labels -->
+      <text x="30" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">00:00</text>
+      <text x="200" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">06:00</text>
+      <text x="380" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">12:00</text>
+      <text x="520" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">18:00</text>
+      <text x="660" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748b">Now</text>
+    </g>
+
+    <!-- Side Panel: Traffic Sources & Conversion Events -->
+    <g transform="translate(745, 215)">
+      <rect x="0" y="0" width="335" height="230" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Top Referrers & Channels</text>
+
+      <g transform="translate(20, 52)">
+        <text x="0" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Direct / Bookmark</text>
+        <text x="240" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#ffffff">46%</text>
+        <rect x="0" y="24" width="280" height="6" rx="3" fill="#334155" />
+        <rect x="0" y="24" width="128" height="6" rx="3" fill="#38bdf8" />
+
+        <text x="0" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">LinkedIn / Social Unfurl</text>
+        <text x="240" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#ffffff">34%</text>
+        <rect x="0" y="62" width="280" height="6" rx="3" fill="#334155" />
+        <rect x="0" y="62" width="95" height="6" rx="3" fill="#818cf8" />
+
+        <text x="0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">GitHub Portfolio Links</text>
+        <text x="240" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#ffffff">15%</text>
+        <rect x="0" y="100" width="280" height="6" rx="3" fill="#334155" />
+        <rect x="0" y="100" width="42" height="6" rx="3" fill="#a78bfa" />
+
+        <text x="0" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">FlyRank Verification</text>
+        <text x="240" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#54e399">5%</text>
+        <rect x="0" y="138" width="280" height="6" rx="3" fill="#334155" />
+        <rect x="0" y="138" width="14" height="6" rx="3" fill="#54e399" />
+      </g>
+    </g>
+
+    <!-- Bottom Events Row: Verification of Live Events -->
+    <g transform="translate(0, 465)">
+      <rect x="0" y="0" width="1080" height="150" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="24" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Real-Time Event Stream (Verified Client Telemetry)</text>
+
+      <!-- Event 1 -->
+      <g transform="translate(24, 52)">
+        <circle cx="6" cy="12" r="4" fill="#34d399" />
+        <text x="20" y="16" font-family="ui-monospace, monospace" font-size="12" fill="#38bdf8">16:52:14</text>
+        <text x="110" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#ffffff">badge_verification_click</text>
+        <text x="320" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Target: https://internship.flyrank.ai/verify?id=FR-GAF-2026-PR73</text>
+        <rect x="880" y="2" width="160" height="20" rx="4" fill="rgba(52, 211, 153, 0.15)" />
+        <text x="895" y="16" font-family="ui-monospace, monospace" font-size="10.5" font-weight="600" fill="#34d399">HTTP 200 • SUCCESS</text>
+      </g>
+
+      <!-- Event 2 -->
+      <g transform="translate(24, 82)">
+        <circle cx="6" cy="12" r="4" fill="#38bdf8" />
+        <text x="20" y="16" font-family="ui-monospace, monospace" font-size="12" fill="#38bdf8">16:51:39</text>
+        <text x="110" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#ffffff">pageview_load</text>
+        <text x="320" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Host: pranitha.dev • SSL: TLS 1.3 Strict • User-Agent: Mobile Safari / Chrome</text>
+        <rect x="880" y="2" width="160" height="20" rx="4" fill="rgba(56, 189, 248, 0.15)" />
+        <text x="895" y="16" font-family="ui-monospace, monospace" font-size="10.5" font-weight="600" fill="#38bdf8">CF-BEACON • LOGGED</text>
+      </g>
+
+      <!-- Event 3 -->
+      <g transform="translate(24, 112)">
+        <circle cx="6" cy="12" r="4" fill="#f59e0b" />
+        <text x="20" y="16" font-family="ui-monospace, monospace" font-size="12" fill="#38bdf8">16:50:08</text>
+        <text x="110" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#ffffff">conversion_cta_click</text>
+        <text x="320" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Target: Calendly 15-Min Technical Intro Sync</text>
+        <rect x="880" y="2" width="160" height="20" rx="4" fill="rgba(245, 158, 11, 0.15)" />
+        <text x="895" y="16" font-family="ui-monospace, monospace" font-size="10.5" font-weight="600" fill="#f59e0b">CONVERSION • SYNC</text>
+      </g>
+    </g>
+  </g>
+</svg>

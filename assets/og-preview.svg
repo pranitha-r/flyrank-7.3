@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070d19" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="badge-glow" cx="15%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+  <rect width="1200" height="630" fill="url(#badge-glow)" />
+
+  <!-- Subtle grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="630" />
+    <line x1="280" y1="0" x2="280" y2="630" />
+    <line x1="480" y1="0" x2="480" y2="630" />
+    <line x1="680" y1="0" x2="680" y2="630" />
+    <line x1="880" y1="0" x2="880" y2="630" />
+    <line x1="1080" y1="0" x2="1080" y2="630" />
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="220" x2="1200" y2="220" />
+    <line x1="0" y1="340" x2="1200" y2="340" />
+    <line x1="0" y1="460" x2="1200" y2="460" />
+    <line x1="0" y1="560" x2="1200" y2="560" />
+  </g>
+
+  <!-- Top Badges Row -->
+  <g transform="translate(80, 56)">
+    <!-- Role Pill -->
+    <rect x="0" y="0" width="370" height="38" rx="19" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" />
+    <circle cx="18" cy="19" r="6" fill="#6366f1" />
+    <text x="34" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#e0e7ff" letter-spacing="1.2">TARGET: TECHNICAL AI PRODUCT MANAGER</text>
+
+    <!-- Custom Domain Pill -->
+    <rect x="386" y="0" width="220" height="38" rx="19" fill="#064e3b" stroke="#10b981" stroke-width="1.2" />
+    <circle cx="404" cy="19" r="6" fill="#34d399" />
+    <text x="420" y="24" font-family="ui-monospace, monospace" font-size="13" font-weight="700" fill="#a7f3d0" letter-spacing="0.5">https://pranitha.dev</text>
+  </g>
+
+  <!-- Candidate Name & Subtitle -->
+  <text x="80" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="-0.02em">Pranitha R</text>
+  <text x="80" y="205" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="600" fill="url(#accent)">Agentic AI Systems • LLM Orchestration • Python Evaluation</text>
+
+  <!-- Proof Claim -->
+  <g transform="translate(80, 240)">
+    <rect x="0" y="0" width="4" height="64" fill="#38bdf8" rx="2" />
+    <text x="24" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="21" font-weight="400" fill="#cbd5e1">
+      "I prove I can define, scope, and build production-ready agentic AI systems
+    </text>
+    <text x="24" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="21" font-weight="500" fill="#38bdf8">
+      using LLM orchestrators and Python."
+    </text>
+  </g>
+
+  <!-- Proof Metrics Cards (3 Pillars) -->
+  <g transform="translate(80, 335)">
+    <!-- Metric 1 -->
+    <rect x="0" y="0" width="220" height="110" rx="14" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.2" />
+    <text x="20" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#38bdf8">94.2%</text>
+    <text x="20" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">Benchmark Accuracy</text>
+    <text x="20" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">120 financial tasks</text>
+
+    <!-- Metric 2 -->
+    <rect x="240" y="0" width="220" height="110" rx="14" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.2" />
+    <text x="260" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#38bdf8">63%</text>
+    <text x="260" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">Turnaround Cut</text>
+    <text x="260" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">SEC 10-K RAG pipeline</text>
+
+    <!-- Metric 3 -->
+    <rect x="480" y="0" width="220" height="110" rx="14" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.2" />
+    <text x="500" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#38bdf8">$0.04</text>
+    <text x="500" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f8fafc">Cost Per Report</text>
+    <text x="500" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">Bounded token economics</text>
+  </g>
+
+  <!-- FlyRank Graduate Credential Badge (Official Tile + Verification) -->
+  <g transform="translate(730, 335)">
+    <rect x="0" y="0" width="390" height="110" rx="16" fill="#051f21" stroke="#1a7a4a" stroke-width="1.5" />
+    <!-- FlyRank Tile -->
+    <g transform="translate(18, 20)">
+      <rect width="70" height="70" rx="16" fill="#051F21" stroke="#54e399" stroke-width="1" />
+      <!-- Official FlyRank Glyph Scaled -->
+      <path d="M28.2354 74.2202V67.9039C29.6419 68.4369 31.3724 68.7055 33.4311 68.7055C35.3235 68.7055 36.8153 68.2396 37.8979 67.3079C38.9805 66.3762 39.9566 64.8695 40.8218 62.792L42.6887 58.3139L29.8976 29.2879C35.0038 29.2879 39.6028 32.3307 41.5294 36.9893L47.0746 50.3985L56.0126 28.6038C57.9221 23.9452 62.5168 20.894 67.6187 20.894L50.0795 63.5936C48.4556 67.5933 46.5205 70.5102 44.2743 72.3484C42.0281 74.1867 39.1169 75.1058 35.5451 75.1058C32.6212 75.1058 30.1875 74.812 28.2354 74.2244V74.2202Z" fill="#54E399" transform="scale(0.72) translate(1, -2)" />
+    </g>
+    <!-- Badge Content -->
+    <text x="104" y="38" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" fill="#54e399" letter-spacing="1.5">FLYRANK AI INTERNSHIP</text>
+    <text x="104" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Verified Graduate Credential</text>
+    <text x="104" y="80" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#94a3b8">ID: FR-GAF-2026-PR73</text>
+    <rect x="104" y="88" width="165" height="16" rx="4" fill="rgba(84,227,153,0.12)" />
+    <text x="110" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#54e399">✓ Verified on internship.flyrank.ai</text>
+  </g>
+
+  <!-- Bottom Bar with URLs & Live Indicators -->
+  <g transform="translate(80, 480)">
+    <rect x="0" y="0" width="1040" height="90" rx="14" fill="#0b1329" fill-opacity="0.9" stroke="#1e293b" stroke-width="1.2" />
+    
+    <g transform="translate(24, 28)">
+      <circle cx="6" cy="6" r="6" fill="#10b981" />
+      <text x="22" y="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff">STATUS: LIVE OVER HTTPS</text>
+      <text x="22" y="32" font-family="ui-monospace, monospace" font-size="13" font-weight="600" fill="#38bdf8">https://pranitha.dev</text>
+    </g>
+
+    <g transform="translate(420, 28)">
+      <circle cx="6" cy="6" r="6" fill="#6366f1" />
+      <text x="22" y="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff">FALLBACK HOST</text>
+      <text x="22" y="32" font-family="ui-monospace, monospace" font-size="13" font-weight="600" fill="#a5b4fc">pranitha-r.github.io/flyrank-7.3</text>
+    </g>
+
+    <g transform="translate(820, 28)">
+      <circle cx="6" cy="6" r="6" fill="#ec4899" />
+      <text x="22" y="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff">ANALYTICS ACTIVE</text>
+      <text x="22" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#f472b6">Cloudflare Insights (0-cookie)</text>
+    </g>
+  </g>
+</svg>
