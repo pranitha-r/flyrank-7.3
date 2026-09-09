@@ -3,12 +3,12 @@
 [![Live on Custom Domain](https://img.shields.io/badge/Live-pranitha.dev-success?style=for-the-badge&logo=netlify)](https://pranitha.dev/)
 [![HTTPS](https://img.shields.io/badge/HTTPS-TLS%201.3-blue?style=for-the-badge&logo=letsencrypt)](https://pranitha.dev/)
 [![Analytics](https://img.shields.io/badge/Analytics-Cloudflare_Insights-orange?style=for-the-badge&logo=cloudflare)](https://dash.cloudflare.com/analytics/web/)
-[![FlyRank Graduate](https://img.shields.io/badge/FlyRank-Verified_Graduate-10b981?style=for-the-badge)](https://internship.flyrank.ai/verify?id=FR-GAF-2026-PR73&first_name=Pranitha)
+[![FlyRank Graduate](https://img.shields.io/badge/FlyRank-Verified_Graduate-10b981?style=for-the-badge)](https://internship.flyrank.ai/verify?id=def55537-6b26-4fe1-96b0-c819244e4ff8&first_name=Pranitha)
 [![GitHub Pages](https://img.shields.io/badge/Fallback-GitHub_Pages-informational?style=for-the-badge&logo=github)](https://pranitha-r.github.io/flyrank-7.3/)
 
 **Live Portfolio URL:** [https://pranitha.dev/](https://pranitha.dev/)  
 **Fallback URL:** [https://pranitha-r.github.io/flyrank-7.3/](https://pranitha-r.github.io/flyrank-7.3/)  
-**Credential Verification:** [https://internship.flyrank.ai/verify?id=FR-GAF-2026-PR73&first_name=Pranitha](https://internship.flyrank.ai/verify?id=FR-GAF-2026-PR73&first_name=Pranitha)
+**Credential Verification:** [https://internship.flyrank.ai/verify?id=def55537-6b26-4fe1-96b0-c819244e4ff8&first_name=Pranitha](https://internship.flyrank.ai/verify?id=def55537-6b26-4fe1-96b0-c819244e4ff8&first_name=Pranitha)
 
 ---
 
@@ -91,4 +91,4 @@ python -m http.server 8000
 ## Candidate
 
 **Pranitha R** · Technical AI Product Manager  
-`pranitha.dev` · `github.com/pranitha-r` · FlyRank ID: `FR-GAF-2026-PR73`
+`pranitha.dev` · `github.com/pranitha-r` · FlyRank ID: `def55537-6b26-4fe1-96b0-c819244e4ff8`

@@ -120,8 +120,8 @@ No horizontal scrolling, no clipped layout, no font rendering issues at any test
 ## 4. FlyRank Graduate Badge — Footer Installation
 
 **Badge spec:** Official FlyRank Banner Badge from [internship-badge.netlify.app](https://internship-badge.netlify.app/)  
-**Credential ID:** `FR-GAF-2026-PR73`  
-**Verification URL:** [https://internship.flyrank.ai/verify?id=FR-GAF-2026-PR73&first_name=Pranitha](https://internship.flyrank.ai/verify?id=FR-GAF-2026-PR73&first_name=Pranitha)
+**Credential ID:** `def55537-6b26-4fe1-96b0-c819244e4ff8`  
+**Verification URL:** [https://internship.flyrank.ai/verify?id=def55537-6b26-4fe1-96b0-c819244e4ff8&first_name=Pranitha](https://internship.flyrank.ai/verify?id=def55537-6b26-4fe1-96b0-c819244e4ff8&first_name=Pranitha)
 
 ### Badge Implementation
 The footer contains the official **Banner** shape badge (auto × 78px), built using:
@@ -129,7 +129,7 @@ The footer contains the official **Banner** shape badge (auto × 78px), built us
 - Mint-400 (`#54E399`) verified checkmark chip.
 - Credential ID displayed in monospace on the badge face.
 - Full inline-style isolation (no host-page style leakage per FlyRank badge spec).
-- `aria-label` set to: _"Verify Pranitha's FlyRank AI Internship credential FR-GAF-2026-PR73"_.
+- `aria-label` set to: _"Verify Pranitha's FlyRank AI Internship credential def55537-6b26-4fe1-96b0-c819244e4ff8"_.
 - `target="_blank" rel="noopener noreferrer"` for safe external link handling.
 
 The badge section has hover elevation (`translateY(-2px)`) and is fully keyboard-navigable.
